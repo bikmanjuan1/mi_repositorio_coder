@@ -1,0 +1,70 @@
+@import "./variables.scss";
+@import "./extend";
+
+*{
+    background-color: $color-secundario !important;
+}
+
+$color: primario;
+*{
+    @if $color == primario{
+        color: red !important;
+    } @else{
+        color: rgb(136, 2, 2);
+    }
+}
+
+//** HEADER
+
+.d-flx-izq{
+    @extend .d-flx;
+    justify-content: end;
+}
+
+.bg-dark{
+    background-color: $color-secundario !important;
+}
+
+@for $i from 1 through 3 {
+    .card-#{$i}{height: 18em; margin: 2em; border: 1px solid $color-primario; border-radius: 2%;}
+}
+
+
+//*CARTAS
+
+.Card-C{
+    @extend .Card-C;
+}
+
+.btn-primary{
+    border-color: $color-secundario !important;
+    background-color: $color-primario !important;
+    color: black !important;
+}
+
+.centerCont{
+    @extend .centerCont;
+}
+
+.centerCont--Medium{
+    @extend .centerCont;
+    height: 4em;
+}
+
+//* FOOTER
+
+.footerC{
+    justify-content: space-between;
+}
+
+.listylenone{
+    @extend .listasnn;
+    padding-left: 0;
+}
+
+//**DISCOS
+
+.ltbr {
+    display: flex;
+    justify-content: center;
+    }

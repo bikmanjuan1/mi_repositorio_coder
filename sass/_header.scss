@@ -1,0 +1,6 @@
+@import "./variables.scss";
+@import "./extend";
+
+.navbar-2{
+    @extend .flx;
+}

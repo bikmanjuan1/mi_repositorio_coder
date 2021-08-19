@@ -1,0 +1,106 @@
+/*FUENTES*/
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+
+.d-flx, .d-flx-izq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Card-C {
+  text-align: center;
+}
+
+.centerCont, .centerCont--Medium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.listasnn, .listylenone {
+  list-style: none;
+}
+
+* {
+  background-color: #000 !important;
+  color: red !important;
+  font-family: "Black Ops One", cursive;
+}
+
+.d-flx-izq {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.card-1 {
+  height: 18em;
+  margin: 2em;
+  border: 1px solid #c01b1b;
+  border-radius: 2%;
+}
+
+.card-2 {
+  height: 18em;
+  margin: 2em;
+  border: 1px solid #c01b1b;
+  border-radius: 2%;
+}
+
+.card-3 {
+  height: 18em;
+  margin: 2em;
+  border: 1px solid #c01b1b;
+  border-radius: 2%;
+}
+
+.btn-primary {
+  border-color: #000 !important;
+  background-color: #c01b1b !important;
+  color: black !important;
+}
+
+.centerCont--Medium {
+  height: 4em;
+}
+
+.footerC {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.listylenone {
+  padding-left: 0;
+}
+
+.ltbr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.centerCont--Medium {
+  height: 2em;
+}
+
+.navbar-toggler-icon {
+  background-color: red !important;
+  border-radius: 4px;
+  }
