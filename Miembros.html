@@ -1,86 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miembros</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./sass/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <title>AC/DC</title>
+        
+        <!--ESTILOS-->
+        <link rel="stylesheet" href="./estilos/estilos.css">
+        <!--ESTILOS-->
+        
+        <!--ESTILO DE FUENTE-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        <!--ESTILO DE FUENTE-->
+        
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!--AOS-->
+        
+        <!--ICONOS-->
+        <script src="https://kit.fontawesome.com/bcaa058678.js" crossorigin="anonymous"></script>
+        <!--ICONOS-->
+        
+    </head>
 <body>
-    <div class="contenedorMiembros">
-        <div class="container">
-        <header class="encabezadoMiembros">
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                <div class="container-fluid">
-                <img src="./Archivos multimedia/51mCplLVGvL._AC_SX450_.jpg" alt="Logo">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid">
+      
+
+    <!--ENCABEZADO-->
+                <header class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-black">
+                    <a class="navbar-brand" href="#">
+                        <img src="./Archivos multimedia/51mCplLVGvL._AC_SX450_.png" alt="Logo_ACDC">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" d-flex justify-content-end m-2>
-                    <ul class="navbar-nav me-0 mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./Index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Historia.html">Historia</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Miembros
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link anima" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link anima" href="./Historia.html">Historia</a>
+                        </li>  
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle anima" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Miembros
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Angus Young</a></li>
-                        <li><a class="dropdown-item" href="#">Malcom Young</a></li>
-                        <li><a class="dropdown-item" href="#">Brian Jonhson</a></li>
-                        <li><a class="dropdown-item" href="#">Cliff Williams</a></li>
-                        <li><a class="dropdown-item" href="#">Phil Rudd</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./discos2.html">Discos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Contacto2.html">Contacto</a>
-                    </li>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown"  data-aos="fade-down">
+                            <a class="dropdown-item" href="#">Angus Young</a>
+                            <a class="dropdown-item" href="#">Brian Jonhson</a>
+                            <a class="dropdown-item" href="#">Stevie Young</a>
+                            <a class="dropdown-item" href="#">Cliff Williams</a>
+                            <a class="dropdown-item" href="#">Phil Rudd</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link anima" href="./discos2.html">Discos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anima" href="./Contacto2.html">Contacto</a>
+                        </li>
                     </ul>
                     
-                </div>
-                </div>
-            </nav>
-            
-        </header>
 
-        <main class="mainMiembros">
-            <div class="Angus">
-                <div class="imgAngus">
-                    <img src="./Archivos multimedia/AY.jpg" alt="">
-                </div>
-                <div class="bioAngus">
+                    </div>
+                </nav>
+            </header>
+        <!--CONTENIDO DE LA PAGINA MIEMBROS-->
+        <main class="mainMiembros container-fluid">
+            <!--ANGUS YOUNG-->
+            <div class="Angus" id="Angus">
+                <img src="./Archivos multimedia/AY.jpg" alt="">
+                <div class="contenidoAngus">
                     <h2>Angus Young</h2>
-                    <p>
-                        Angus McKinnon Young (Glasgow, Escocia, 31 de marzo de 1955) es un músico británico nacionalizado australiano, conocido por ser uno de los miembros fundadores y el principal guitarrista del grupo AC/DC, aparte de ser el único miembro que ha permanecido en la banda desde su inicio. <br>
-                        El estilo de tocar de Young es bastante dirigido al blues, tocando con la escala menor y mayor de la escala pentatónica. Su estilo tiene además trucos no blues adicionales. En las primeras grabaciones de AC/DC se pueden escuchar power chords en canciones como "T.N.T" y en "It's a Long Way to the Top (If You Wanna Rock 'n' Roll)". También usa toques de Folk Escocés y toca un poco de blues
-                    </p>
+                        <p>
+                            Angus McKinnon Young (Glasgow, Escocia, 31 de marzo de 1955) es un músico británico nacionalizado australiano, conocido por ser uno de los miembros fundadores y el principal guitarrista del grupo AC/DC, aparte de ser el único miembro que ha permanecido en la banda desde su inicio. <br>
+                            El estilo de tocar de Young es bastante dirigido al blues, tocando con la escala menor y mayor de la escala pentatónica. Su estilo tiene además trucos no blues adicionales. En las primeras grabaciones de AC/DC se pueden escuchar power chords en canciones como "T.N.T" y en "It's a Long Way to the Top (If You Wanna Rock 'n' Roll)". También usa toques de Folk Escocés y toca un poco de blues
+                        </p>
+                            <div class="galeriaAngus">
+                                <ul>
+                                    <li><a href=""><img src="./Archivos multimedia/angus-young-2.jpg" alt="angus-joven"></a></li>
+                                    <li><a href=""><img src="./Archivos multimedia/angus-young-3.jpg" alt="Angus"></a></li>
+                                    <li><a href="AngusGrande"><img src="./Archivos multimedia/angus-young-4.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
                 </div>
             </div>
 
-            <div class="MalcomYoung">
+            <!--MALCOM YOUNG-->
+
+            <div class="MalcomYoung" id="Malcom">
                 <div class="bioMalcom">
                     <h2>Malcom Young</h2>
                     <p>
                         Malcolm Young (Glasgow, Escocia; 6 de enero de 1953-Elizabeth Bay, Sídney, Australia; 18 de noviembre de 2017) fue un guitarrista, compositor y productor discográfico de rock y blues británico, conocido por ser fundador, guitarrista rítmico, corista y miembro letrista de la popular banda australiana AC/DC. <br>
                         fue el responsable de la amplia extensión del sonido, el desarrollo de los riffs de guitarras, la composición de la mayoría de las letras y la producción del material discográfico del grupo.
                     </p>
+                    <div class="galeriaMalcom">
+                        <ul>
+                            <li><a href=""><img src="./Archivos multimedia/malcom-young-2.jpg" alt="Malcom-joven"></a></li>
+                            <li><a href=""><img src="./Archivos multimedia/malcom-young-1.jpeg.jpg" alt="Malcom"></a></li>
+                            <li><a href="AngusGrande"><img src="./Archivos multimedia/malcom-young-3.jpg" alt="Malcom-grande"></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="imgMalcom">
                     <img src="./Archivos multimedia/Malcolm-Young.jpg" alt="Malcom Young" height="300em">
                 </div>
             </div>
 
-            <div class="BrianJohnson">
+            <!--BRIAN JOHNOSON-->
+
+            <div class="BrianJohnson" id="Brian">
                 <div>
                     <img src="./Archivos multimedia/Brian-Johnson1.jpg" alt="">
                 </div>
@@ -91,31 +131,97 @@
                         Brian Francis Johnson (Dunston, 5 de octubre de 1947) es un cantante británico conocido por ser el vocalista de AC/DC. Fue elegido para reemplazar a Bon Scott, tras su muerte en 1980. Su primer álbum como vocalista de AC/DC fue Back In Black. Está situado en el puesto número 39 en la lista de los 100 mejores vocalistas de metal de todos los tiempos de la revista Hit Parader. En 2016, tras diagnosticársele problemas auditivos, se vio obligado a abandonar su carrera como vocalista hasta 2020, siendo sustituido en ese tiempo por Axl Rose como vocalista de AC/DC para la gira Rock or Bust. <br>
                         En 2012, Brian Johnson se inscribió para participar en la 50° edición de las 24 Horas de Daytona siendo el primer músico en participar en una competición importante, tras el legado de otros personajes de fama hollywoodense como Paul Newman y Steve McQueen, que fueron actores y pilotos de carreras.
                     </p>
+                    <div class="galeriaBrian">
+                        <ul>
+                            <li><a href=""><img src="./Archivos multimedia/brian-johnson-1.jpg" alt="Malcom-joven"></a></li>
+                            <li><a href=""><img src="./Archivos multimedia/brian-johnson-2.jpg" alt="Malcom"></a></li>
+                            <li><a href="AngusGrande"><img src="./Archivos multimedia/Brian-Johnson-3.jpg" alt="Malcom-grande"></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </main>
-        <footer class="footerMiembros">
-            <section class="subMenu">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="./Historia.html">Historia</a></li>
-                    <li><a href="./Miembros.html">Miembros</a></li>
-                    <li><a href="./Discos.html">Discos</a></li>
-                    <li><a href="./Contacto.html">Contacto</a></li>
-                </ul>
-            </section>
-            <section class="redes">
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
-            </section>
+
+            <!--CLIFF WILLIAMS-->
+
+            <div class="CliffWilliams" id="Cliff">
+                <div class="bioCliff">
+                    <h2>Cliff Williams</h2>
+                    <p>
+                        Clifford Williams (Romford, Inglaterra; 14 de diciembre de 1949). En 1972, luego de la salida de Mark Evans, bajista de la banda, se presentó a las audiciones y a Angus le gusto su estilo hard rock. Se unió a fines de año y desde entonces está en la banda.
+                        <br>
+                        Fue reemplazado temporalmente por Paul Greg durante la gira mundial de 1991.
+                        <br>
+                        A finales de la gira de Rock or Bust se confirma que abandona la banda porque según dice, la banda ha sufrido muchos cambios durante los últimos años.
+                        <br>
+                        En octubre de 2020 Se confirma su reincorporación a la banda mediante la llegada del nuevo Álbum "Power Up" contando con Cliff en el bajo.
+                    </p>
+                    <div class="galeriaCliff">
+                        <ul>
+                            <li><img src="./Archivos multimedia/Cliff_Williams-2.jpg" alt="Cliff-joven"></li>
+                            <li><img src="./Archivos multimedia/Cliff-Williams-3.jpg" alt="Cliff"></li>
+                            <li><img src="./Archivos multimedia/Cliff-Williams-4.jpg" alt="Cliff-grande"></li>
+                        </ul>
+                </div>
+                </div>
+                <div class="imgCliff">
+                        <img src="./Archivos multimedia/Cliff-Williams-1.jpg" alt="Cliff-Williams">
+                </div>
+            </div>
+            <!--PHIL RUDD-->
+                
+            <div class="PhilRudd" id="Phil">
+                <div>
+                    <img src="./Archivos multimedia/Phil-rudd-1.jpg" alt="PhilRudd">
+                </div>
+
+                <div class="bioPhil">
+                    <h2>Phil Rudd</h2>
+                    <p>
+                        Phil Rudd (Melbourne, 19 de mayo de 1954) es un baterista australiano de hard rock.
+                        Junto con Cliff Williams y los hermanos Young conforma la formación clásica del grupo. Su etapa en AC/DC comprende desde 1975 a 1983, posteriormente desde 1994 hasta 2014 y Desde octubre de 2020 a día de hoy. Desde la salida del grupo por parte de Mark Evans, se convirtió en el único integrante australiano del grupo. Junto con los hermanos Young, Cliff Williams y Brian Johnson, ingresó al Rock and Roll Hall of Fame, en 2003. La revista Rolling Stone, lo ubicó en el puesto N°86 en la lista de Los 100 Mejores Bateristas de la Historia. Ha vuelto oficialmente a AC/DC con el anuncio del álbum Power Up que fue lanzado el 13 de noviembre de 2020.
+                    </p>
+                    <div class="galeriaPhil">
+                        <ul>
+                            <li><img src="./Archivos multimedia/Phil-rud-2.jpg" alt="Phil-joven"></li>
+                            <li><img src="./Archivos multimedia/Phil-rudd-3.jpg" alt="Phil"></li>
+                            <li><img src="./Archivos multimedia/phil-rudd-4.jpg" alt="Phil-grande"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+        </main>    <!--FOOTER-->
+        <footer class="d-flex footerC container-fluid mt-2">
+                <img src="./Archivos multimedia/51mCplLVGvL._AC_SX450_.png" alt="">
+                <!--<section class="subMenu">-->
+                    <div class="subMenu">
+                        <h2>Sitios</h2>
+                        <ul class="listylenone">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="./Historia.html">Historia</a></li>
+                            <li><a href="./Miembros.html">Miembros</a></li>
+                            <li><a href="./Discos.html">Discos</a></li>
+                            <li><a href="./Contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                <!--</section>-->
+                <!--<section class="redes">-->
+                        <div class="redes">
+                            <h2>Seguinos</h2>
+                            <ul class="listylenone">
+                                <li><i class="fab fa-facebook"></i><a href="#">Facebook</a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                                <li><a href="#"><i class="fab fa-twitter-square"></i>Twitter</a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i>Youtube</a></li>
+                            </ul>
+                        </div>
+                <!--</section>-->
         </footer>
-  
-    </div>
-    
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
 </body>
 </html>
